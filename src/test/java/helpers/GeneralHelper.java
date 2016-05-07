@@ -144,7 +144,7 @@ public class GeneralHelper {
         DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmm");
         Date date = new Date();
         s2 = dateFormat.format(date);
-        s3 = "@deindeal.ch";
+        s3 = "@mailinator.com";
         save_data("randomEmail", s1 + s2 + s3);
         return s1 + s2 + s3;
     }

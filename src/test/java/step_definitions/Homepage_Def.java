@@ -1,16 +1,17 @@
 package step_definitions;
 
-import cucumber.api.java.en.And;
 import actions.Homepage_actions;
+import cucumber.api.java.en.And;
 import org.openqa.selenium.support.PageFactory;
 import pageobjects.Homepage;
-
-import static step_definitions.Hooks.driver;
 
 /**
  * Created by gabi on 07/05/16.
  */
-public class Homepage_Def {
+public class Homepage_Def  extends StepDefHelper {
+
+    public Homepage_Def() throws Throwable {
+    }
 
     @And("^I search for \"([^\"]*)\"$")
     public void iSearchFor(String search_term_name) throws Throwable {
