@@ -47,7 +47,7 @@ public class Hooks {
                 DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 
                 if (OS.contains("nix") || OS.contains("nux") || OS.indexOf("aix") > 0) {
-                    System.setProperty("webdriver.chrome.driver", file + "/chromedriver");
+                    System.setProperty("webdriver.chrome.driver", file + "/chromedriver-linux");
                 } else if (OS.contains("mac")) {
                     System.setProperty("webdriver.chrome.driver", file + "/chromedriver");
                 } else {
