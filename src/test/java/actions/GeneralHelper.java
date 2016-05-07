@@ -1,4 +1,4 @@
-package helpers;
+package actions;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

@@ -1,7 +1,7 @@
 package step_definitions;
 
 import cucumber.api.java.en.And;
-import helpers.Homepage_actions;
+import actions.Homepage_actions;
 import org.openqa.selenium.support.PageFactory;
 import pageobjects.Homepage;
 

@@ -1,7 +1,7 @@
 package step_definitions;
 
 import cucumber.api.java.en.Given;
-import helpers.Open_website_actions;
+import actions.Open_website_actions;
 
 import static step_definitions.Hooks.driver;
 
